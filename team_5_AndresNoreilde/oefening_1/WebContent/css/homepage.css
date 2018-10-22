@@ -1,0 +1,24 @@
+body {
+    background: url('https://www.landal.be/-/media/Images/Regio/Ardennen/Regio_30_32624_4_3_75361.jpg') no-repeat center center fixed;
+    background-size: cover;
+	color:#fff;
+  	background-color:#333;
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+}
+
+.info {
+	background: #ffffff;
+	color: grey;
+	padding: 20px;
+	margin-top: 50px;
+	min-height: 200px
+}
+
+.info p {
+	font-size: 20px;
+}
+
+footer {
+	background: black;
+	min-height: 50px;
+}
