@@ -1,10 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>about my vacation page</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/homepage.css">
+		<link rel="stylesheet" href="css/comment.css">
+	
+	<!--[if lt IE 9]>
+	   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
 </head>
 <body>
+	<div class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="homepage.html" class="navbar-brand">Mijn vakantie</a>
+   			</div>	
+   					  
+			<div class="collapse navbar-collapse" id="mynavbar-content">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="homepage.html">Homepage</a></li>
+					<li><a href= "about.html">Over mijn vakantie</a></li>
+					<li><a href= "comments.html">Comments</a></li>
+				</ul>
+			</div>   
+		</div>
+	</div>
+	
+	<div class="info">
+    	<h1>Comments</h1>
+    	<p>Wat vind je van mijn vakantie ? <br> Vertel het hier :)<p>
+    	<div id="comment-message" class="form-row">
+			<textarea name="comment" placeholder="Message" id="comment" cols="100" rows="10" tabindex="4"></textarea>
+		</div>
+		<input class="fbtn bright-blue" name="submit" type="submit" id="commentSubmit" tabindex="5" value="Submit Comment">
+    </div>
 
+    <br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br>
+     <div class="row">
+        <div class="col-sm-8">
+            <div class="panel panel-white post panel-shadow">
+                <div class="post-heading">
+                    <div class="pull-left image">
+                        <img src="http://bootdey.com/img/Content/user_1.jpg" class="img-circle avatar" alt="user profile image">
+                    </div>
+                    <div class="pull-left meta">
+                        <div class="title h5">
+                            <a href="#"><b>Ryan Haywood</b></a>
+                            made a post.
+                        </div>
+                        <h6 class="text-muted time">1 minute ago</h6>
+                    </div>
+                </div> 
+                <div class="post-description"> 
+                    <p>Bootdey is a gallery of free snippets resources templates and utilities for bootstrap css hmtl js framework. Codes for developers and web designers</p>
+                    <div class="stats">
+                        <a href="#" class="btn btn-default stat-item">
+                            <i class="fa fa-thumbs-up icon"></i>2
+                        </a>
+                        <a href="#" class="btn btn-default stat-item">
+                            <i class="fa fa-thumbs-down icon"></i>12
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="panel panel-white post panel-shadow">
+                <div class="post-heading">
+                    <div class="pull-left image">
+                        <img src="http://bootdey.com/img/Content/user_1.jpg" class="img-circle avatar" alt="user profile image">
+                    </div>
+                    <div class="pull-left meta">
+                        <div class="title h5">
+                            <a href="#"><b>Ryan Haywood</b></a>
+                            made a post.
+                        </div>
+                        <h6 class="text-muted time">1 minute ago</h6>
+                    </div>
+                </div> 
+                <div class="post-description"> 
+                    <p>Bootdey is a gallery of free snippets resources templates and utilities for bootstrap css hmtl js framework. Codes for developers and web designers</p>
+                    <div class="stats">
+                        <a href="#" class="btn btn-default stat-item">
+                            <i class="fa fa-thumbs-up icon"></i>2
+                        </a>
+                        <a href="#" class="btn btn-default stat-item">
+                            <i class="fa fa-thumbs-down icon"></i>12
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<footer>
+		<p>&copy; made by Andres Noreilde</p>
+	</footer>
+  
+	<script src="https://code.jquery.com/jquery-1.11.0.js" integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>
